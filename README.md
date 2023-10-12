@@ -19,5 +19,11 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
 ### 3. House Price Prediction
 
 - **Description:** The project predicts the house price after studying the variables such as location, area, bredroom, bathroom count and many more.
-- **Technologies Used:** The notebooks uses Linear Regression, Ridge Regression and Random Forest Regressor
+- **Technologies Used:** The notebooks uses Linear Regression, Ridge Regression and Random Forest Regressor. Model training was done using pipeline.
 - **Results:** The Random Forest Regressor performed best with accuracy of 87.89%
+
+### 4. Customer Churn Prediction
+
+- **Description:** The main objective of the Bank Customer Churn Prediction project is to analyze the demographics in order to predict whether a customer will leave the bank or not.
+- **Technologies Used:** The notebooks uses Decision Tree Classifier and Random Forest Classifier. Model training was done using GridSearchCV to find the best parameters.
+- **Results:** The Random Forest Classifier performed best with accuracy of 86.8%
