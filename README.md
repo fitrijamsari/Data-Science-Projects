@@ -39,3 +39,9 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
 - **Description:** The project predicts the employement score for progamming job application based on hiring survey data.
 - **Technologies Used:** The notebooks uses Decision Tree Classifier, Support Vector Machine, KNN, Random Forest Classifier and XGboost. Decision Tree Model, RFC and XGBoost training was done using GridSearchCV to find the best parameters.
 - **Results:** The Xgboost, RFC and SVM performs the best with ~78% accuracy. Bining for "PreviousSalary" perform better with higher accuracy.
+
+### 7. Warranty Claims Fraud Prediction
+
+- **Description:** The project predicts the fraudulent claims prediction from total warranty claims of television product
+- **Technologies Used:** The notebooks uses Decision Tree Classifier, Random Forest Classifier, logistic regression and XGboost. Decision Tree Model, RFC and XGBoost training was done using GridSearchCV to find the best parameters.
+- **Results:** I have used Decision Tree Classifier, Random Forest Classifier, Logistic Regression and Xgboost Classifier. All these models gave excellent accuracy of 90-92%. However, due to lesser number of fraudulent claims or small dataset size (323 Not Fraud, 35 Fraud), the models have poor recall score for fraudulent claims. But this issue can be resolved by collecting more data.
