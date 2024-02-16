@@ -25,8 +25,13 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
 ### 4. Customer Churn Prediction
 
 - **Description:** The main objective of the Bank Customer Churn Prediction project is to analyze the demographics in order to predict whether a customer will leave the bank or not.
-- **Technologies Used:** The notebooks uses Decision Tree Classifier and Random Forest Classifier. Model training was done using GridSearchCV to find the best parameters.
-- **Results:** The Random Forest Classifier performed best with accuracy of 86.8%
+- **Technologies Used:**
+
+* Features with outliers has been handled using IQR method.
+* Imbalance dataset has been handled using SMOTE method.
+* The dataset was trained with 6 different model Logistic Regression, SVM, KNN, Decision Tree Classifier, Random Forest Classifier and XGboost. Tree based model training was done using GridSearchCV to find the best parameters.
+
+- **Results:** Since this case is a imbalance dataset classification problem, we have to evaluate the f1-score, specificity, precision-recall curves and precision (FP cost more than FN).XGBoost model performed best with highest value of accuracy, precision, f1-score, specificity, precision-recall curves compare to other models. Random Forest Classifier perform the 2nd best.
 
 ### 5. Heart Stroke Prediction
 
