@@ -24,3 +24,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# remove large files
+08_Credit Card Fraud Prediction/creditcard.csv
