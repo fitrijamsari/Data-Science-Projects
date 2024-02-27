@@ -29,9 +29,9 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
 
 * Features with outliers has been handled using IQR method.
 * Imbalance dataset has been handled using SMOTE method.
-* The dataset was trained with 6 different model Logistic Regression, SVM, KNN, Decision Tree Classifier, Random Forest Classifier and XGboost. Tree based model training was done using GridSearchCV to find the best parameters.
+* The dataset was trained with 7 different model Logistic Regression, SVM, KNN, Decision Tree Classifier, Random Forest Classifier, XGboost and Catboost. Tree based model training was done using GridSearchCV to find the best parameters.
 
-- **Results:** Since this case is a imbalance dataset classification problem, we have to evaluate the f1-score, specificity, precision-recall curves and precision (FP cost more than FN).XGBoost model performed best with highest value of accuracy, precision, f1-score, specificity, precision-recall curves compare to other models. Random Forest Classifier perform the 2nd best.
+- **Results:** Since this case is a imbalance dataset classification problem, we have to evaluate the f1-score, specificity, precision-recall curves and precision (FP cost more than FN).XGBoost model performed best with highest value of accuracy, precision, f1-score, specificity, precision-recall curves compare to other models. Catboost perform the 2nd best.
 
 ### 5. Heart Stroke Prediction
 
@@ -50,3 +50,15 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
 - **Description:** The project predicts the fraudulent claims prediction from total warranty claims of television product
 - **Technologies Used:** The notebooks uses Decision Tree Classifier, Random Forest Classifier, logistic regression and XGboost. Decision Tree Model, RFC and XGBoost training was done using GridSearchCV to find the best parameters.
 - **Results:** I have used Decision Tree Classifier, Random Forest Classifier, Logistic Regression and Xgboost Classifier. All these models gave excellent accuracy of 90-92%. However, due to lesser number of fraudulent claims or small dataset size (323 Not Fraud, 35 Fraud), the models have poor recall score for fraudulent claims. But this issue can be resolved by collecting more data.
+
+### 8. Credit Card Fraud Prediction
+
+- **Description:** It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase
+
+- **Technologies Used:**
+
+* Features with outliers has been handled using log transformation & IQR method.
+* Imbalance dataset has been handled using SMOTE, undersampling and mix method.
+* The dataset was trained with 6 different model Logistic Regression, Naive Bayes,Decision Tree Classifier, Random Forest Classifier, XGboost & Catboost. Tree based model training was done using GridSearchCV to find the best parameters.
+
+- **Results:** Since this case is a imbalance dataset classification problem, I will have to evaluate the f1-score, specificity, precision-recall curves and precision (FP cost more than FN).XGBoost model performed best with highest value of accuracy, precision, f1-score, specificity, precision-recall curves compare to other models. Catboost perform the 2nd best.
